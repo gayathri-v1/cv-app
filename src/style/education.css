@@ -1,0 +1,30 @@
+.eduForm, .experienceForm{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:20px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.submittedForm,.expSubmit{
+    padding:20px;
+}
+
+.eduForm{
+    width:300px;
+
+}
+.experienceForm{
+    width:700px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
