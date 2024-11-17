@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { v4 as uuid } from "uuid";
+import { v4 as uuidv4  } from "uuid";
 import '../style/education.css'
 import { MdSchool } from "react-icons/md";
 
@@ -11,7 +11,7 @@ const Education1 = () => {
         title: "",
         fromDate: "",
         toDate: "",
-        id: uuid(),
+        id: uuidv4(),
       },
     ],
     editMode: true,
@@ -39,7 +39,7 @@ const Education1 = () => {
           title: "",
           fromDate: "",
           toDate: "",
-          id: uuid(),
+          id: uuidv4(),
         },
       ],
     }));

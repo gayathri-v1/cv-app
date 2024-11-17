@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { v4 as uuid } from "uuid";
+import { v4 as uuidv4  } from "uuid";
 import '../style/education.css';
 const Experience = () => {
   const [experienceInfo, setExperienceInfo] = useState({
@@ -10,7 +10,7 @@ const Experience = () => {
         responsibility: "",
         fromDate: "",
         toDate: "",
-        id: uuid(),
+        id: uuidv4(),
       },
     ],
     editMode: true,
@@ -37,7 +37,7 @@ const Experience = () => {
           responsibility: "",
           fromDate: "",
           toDate: "",
-          id: uuid(),
+          id: uuidv4(),
         },
       ],
     }));
