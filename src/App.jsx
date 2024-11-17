@@ -1,6 +1,6 @@
 import Education1 from "./components/Education1"
-import Experience from "./components/experience"
-import General from "./components/general"
+import Experience from "./components/Experience"
+  import General from "./components/General"
 
 function App() {
 
